@@ -27,7 +27,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -194,6 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610606573980</updated>
       <workItem from="1610606580807" duration="10148000" />
+      <workItem from="1610640121396" duration="1483000" />
     </task>
     <servers />
   </component>
@@ -210,6 +211,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1610624292821">
@@ -232,9 +234,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610620125705" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610622349403">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610641358701">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610622349403" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610641358701" />
   </component>
 </project>
