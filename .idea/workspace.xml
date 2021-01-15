@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b960a9b-0ecf-4123-a351-cd7285fb5d96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_14_173321_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_173321_create_categories_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,7 @@
       <workItem from="1610606580807" duration="10148000" />
       <workItem from="1610640121396" duration="2252000" />
       <workItem from="1610676617743" duration="6015000" />
-      <workItem from="1610697099760" duration="1117000" />
+      <workItem from="1610697099760" duration="2181000" />
     </task>
     <servers />
   </component>
