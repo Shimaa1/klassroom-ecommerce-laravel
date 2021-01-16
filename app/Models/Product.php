@@ -3,8 +3,24 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
+use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
-class Product extends Model
+class Product extends Model implements HasMedia
 {
+    use HasMediaTrait;
+
     protected  $guarded = [];
+
+    protected static function boot(){
+        parent::boot();
+        static::creating(function ($product){
+            $product->slug = \Str::slug($product->title);
+        });
+    }
+
+    public function category(){
+        return $this->hasOne(Category::class);
+    }
+
 }

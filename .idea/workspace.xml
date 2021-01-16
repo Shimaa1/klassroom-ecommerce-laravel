@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6b960a9b-0ecf-4123-a351-cd7285fb5d96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OrderProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OrderProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_14_173321_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_14_173321_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_15_090625_create_orders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_15_090625_create_orders_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +192,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -210,7 +217,8 @@
       <workItem from="1610606580807" duration="10148000" />
       <workItem from="1610640121396" duration="2252000" />
       <workItem from="1610676617743" duration="6015000" />
-      <workItem from="1610697099760" duration="2181000" />
+      <workItem from="1610697099760" duration="3320000" />
+      <workItem from="1610769264804" duration="4303000" />
     </task>
     <servers />
   </component>
@@ -246,14 +254,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610624292821" />
+    <state x="33" y="20" width="916" height="708" key="SettingsEditor" timestamp="1610772895140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="33" y="20" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610772895140" />
     <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1610620125705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610620125705" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610697220210">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610773481713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610697220210" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610773481713" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
