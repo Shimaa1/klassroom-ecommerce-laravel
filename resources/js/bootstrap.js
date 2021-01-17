@@ -5,6 +5,7 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
+    require('holderjs');
 } catch (e) {}
 
 
