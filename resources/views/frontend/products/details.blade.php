@@ -23,8 +23,11 @@
 
                         <p class="price-detail-wrap">
                             <span class="price h3 text-warning">
-                                <span class="currancy">BDT </span>
-                                <span class="num">{{$product->price}}</span>
+                                    @if($product->sale_price !== null && $product->sale_price > 0)
+                                    BDT: <strike>{{$product->price}}</strike> | BDT: {{$product->sale_price}}
+                                    @else
+                                    BDT: {{$product->price}}
+                                    @endif
                             </span>
                         </p>
 
@@ -33,7 +36,11 @@
                             <dd><p>{{$product->description}}</p></dd>
                         </dl>
                         <hr>
-                        <a href="" class="btn btn-lg btn-outline-primary text-uppercase">Add to cart</a>
+                        <form action="{{route('cart.add')}}" method="POST">
+                            @csrf
+                            <input type="hidden" name="product_id" value="{{$product->id}}">
+                            <button type="submit" class="btn btn-lg btn-outline-primary text-uppercase">ADD TO CART</button>
+                        </form>
                     </article>
                 </aside>
             </div>

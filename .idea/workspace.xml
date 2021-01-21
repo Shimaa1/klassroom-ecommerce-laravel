@@ -23,10 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b960a9b-0ecf-4123-a351-cd7285fb5d96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/products/details.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/partials/_hero.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/partials/_hero.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/partials/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/partials/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/products/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/products/details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +228,10 @@
       <workItem from="1610853570198" duration="8425000" />
       <workItem from="1610953825105" duration="4775000" />
       <workItem from="1611027114799" duration="10373000" />
-      <workItem from="1611058757096" duration="2204000" />
+      <workItem from="1611058757096" duration="9694000" />
+      <workItem from="1611118505257" duration="18903000" />
+      <workItem from="1611156142058" duration="158000" />
+      <workItem from="1611156359389" duration="3188000" />
     </task>
     <servers />
   </component>
@@ -272,10 +279,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610803314166" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610958996573">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611138133992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610958996573" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611138133992" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
