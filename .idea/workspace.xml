@@ -23,14 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b960a9b-0ecf-4123-a351-cd7285fb5d96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/checkout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/partials/_message.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/partials/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/partials/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/products/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/products/details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,6 +234,9 @@
       <workItem from="1611118505257" duration="18903000" />
       <workItem from="1611156142058" duration="158000" />
       <workItem from="1611156359389" duration="3188000" />
+      <workItem from="1611205883624" duration="2745000" />
+      <workItem from="1611287012448" duration="16906000" />
+      <workItem from="1611328710970" duration="593000" />
     </task>
     <servers />
   </component>
@@ -279,10 +284,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610803314166" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611138133992">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611304014514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611138133992" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611304014514" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

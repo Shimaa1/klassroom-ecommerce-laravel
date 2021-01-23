@@ -15,8 +15,15 @@
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Contact</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                        <li><a href="#" class="text-white">Like on Facebook</a></li>
+                        @guest()
+                            <li><a href="{{route('register')}}" class="text-white">Create an account</a></li>
+                            <li><a href="{{route('login')}}" class="text-white">Login</a></li>
+                        @endguest
+                        @auth()
+                            <li><a href="{{route('profile')}}" class="text-white">My Profile</a></li>
+                            <li><a href="{{route('logout')}}" class="text-white">Logout</a></li>
+                        @endauth
+
                         <li><a href="{{route('cart.show')}}" class="text-white">Cart</a></li>
                     </ul>
                 </div>
