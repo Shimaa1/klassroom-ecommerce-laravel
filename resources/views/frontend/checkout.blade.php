@@ -19,6 +19,7 @@
 
     </div>
 
+    @auth
     <div class="container">
         <div class="row">
             <div class="col-md-4 order-md-2 mb-4">
@@ -91,5 +92,6 @@
                 </form>
             </div>
         </div>
+    @endauth
 
 @endsection

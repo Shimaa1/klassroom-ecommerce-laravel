@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers\Frontend;
 
-use App\Http\Controllers\Controller;
-use App\Models\User;
-use App\Notifications\RegistrationEmailNotification;
 use Carbon\Carbon;
+use App\Models\User;
+use App\Models\Order;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Notifications\RegistrationEmailNotification;
 
 class AuthController extends Controller
 {
@@ -104,7 +105,9 @@ class AuthController extends Controller
     }
 
     public function profile(){
-
+        $data = [];
+        $data['orders'] = Order::where('user_id', auth()->user()->id)->get(); 
+        return view('frontend.auth.profile',$data);
     }
 
 }

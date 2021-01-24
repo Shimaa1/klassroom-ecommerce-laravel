@@ -108,8 +108,7 @@ class CartController extends Controller
             'address' => 'required',
             'postal_code' => 'required',
         ]);
-
-        
+       
         
         $cart = session()->has('cart') ? session()->get('cart') : [];
         $total = array_sum(array_column($cart,'total_price'));
@@ -135,9 +134,19 @@ class CartController extends Controller
         }
 
         session()->forget(['cart']);
+        session()->flash('message','Order placed successfully.');
 
         //$this->setSuccess('Order placed successfully.');
-        return redirect('/');
+        return redirect()->route('order.details',$order->id);
+    }
+
+    public function showOrder($id)
+    {
+        $data = [];
+        
+        $data['order'] = Order::with('products.product')->findOrFail($id);
+
+        return view('frontend.orders.details',$data);
     }
 
 
