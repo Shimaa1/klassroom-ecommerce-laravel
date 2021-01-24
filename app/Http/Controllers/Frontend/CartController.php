@@ -7,6 +7,7 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Dotenv\Exception\ValidationException;
+use App\Notifications\OrderEmailNotification;
 
 class CartController extends Controller
 {
@@ -132,6 +133,8 @@ class CartController extends Controller
                 'price' => $product['total_price'],
             ]);
         }
+
+        auth()->user()->notify(new OrderEmailNotification($order,auth()->user(0)));
 
         session()->forget(['cart']);
         session()->flash('message','Order placed successfully.');
